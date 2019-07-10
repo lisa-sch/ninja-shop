@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    font-family: Avenir;
+}
+
+nav {
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+    color: #ffffff
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 0 10px;
+    color: #ffffff
+}
+
+section {
+    text-align: center;
+}
+
+input {
+    margin: 5% 0 0 0;
+    width: 30%;
+    font-size: 1em;
+}
+
+h2 {
+    font-size: 30px;
+    color: red;
+    margin: 20 0 40px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    text-align: center;
+    width: 50%;
+}
+
+.buy-button {
+    background-color: darkblue;
+    color: #ffffff;
+    border-radius: 25%;
+    padding: 10px 30px;
+    border: 1px solid darkblue;
+}
